@@ -22,6 +22,6 @@ var data = Immutable.Map(obj);
 expect(data).not.is(obj);
 ```
 
-Credits
+# Credits
 
 The `is` matcher is straight from [Lee Byron's gist](https://gist.github.com/leebyron/755227877ce47077e16d)
