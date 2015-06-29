@@ -1,0 +1,29 @@
+{
+  "name": "jasmine-immutablejs-matchers",
+  "version": "0.1.0",
+  "description": "Jasmine matchers for Immutable.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevinold/jasmine-immutablejs-matchers.git"
+  },
+  "keywords": [
+    "jasmine",
+    "immutablejs",
+    "immutable",
+    "matchers"
+  ],
+  "author": "Kevin Old <kevinold@gmail.com> (http://kevinold.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevinold/jasmine-immutablejs-matchers/issues"
+  },
+  "homepage": "https://github.com/kevinold/jasmine-immutablejs-matchers",
+  "devDependencies": {
+    "immutable": "^3.7.2",
+    "jest-cli": "^0.4.3"
+  }
+}
