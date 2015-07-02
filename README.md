@@ -38,7 +38,7 @@ expect(data).not.toEqualImmutable(obj);
 
 # Credits
 
-`toEqualImmutable` based on the `is` matcher is straight from [Lee Byron's gist](https://gist.github.com/leebyron/755227877ce47077e16d)
-Joel Lanciaux
-Ryan Lanciaux
-Jeff Barczewski
+- `toEqualImmutable` based on the `is` matcher is straight from [Lee Byron's gist](https://gist.github.com/leebyron/755227877ce47077e16d)
+- Joel Lanciaux
+- Ryan Lanciaux
+- Jeff Barczewski
