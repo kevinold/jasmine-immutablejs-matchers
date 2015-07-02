@@ -1,6 +1,8 @@
 # jasmine-immutablejs-matchers
 Jasmine matchers for Immutable.js
 
+[![Build Status](https://travis-ci.org/kevinold/jasmine-immutablejs-matchers.svg?branch=master)](https://travis-ci.org/kevinold/jasmine-immutablejs-matchers)
+
 # Installation
 
 ```
