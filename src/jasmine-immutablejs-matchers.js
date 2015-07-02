@@ -2,12 +2,21 @@ var Immutable = require('immutable');
 
 beforeEach(function () {
 
-  this.addMatchers({
+  jasmine.addMatchers({
     toBeImmutable: function() {
-      return Immutable.Iterable.isIterable(this.actual);
+      return {
+        compare: function(actual, expected) {
+          return { pass: Immutable.Iterable.isIterable(actual) };
+        }
+      };
     },
     is: function(expected) {
-      return Immutable.is(this.actual, expected);
+      //return Immutable.is(actual, expected);
+      return {
+        compare: function(actual, expected) {
+          return { pass: Immutable.is(actual, expected) };
+        }
+      };
     }
   });
 

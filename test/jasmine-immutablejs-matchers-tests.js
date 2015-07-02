@@ -1,4 +1,3 @@
-jest.dontMock('immutable');
 var Immutable = require('immutable');
 require('../src/jasmine-immutablejs-matchers');
 
