@@ -14,13 +14,13 @@ describe("isImmutable", function() {
 
       it("should confirm", function() {
         var data = Immutable.Map({'a': 1, 'b': 2});
-        expect(data).is(data);
+        expect(data).toEqualImmutable(data);
       });
 
       it("should be false when NOT a match", function() {
         var obj = {'a': 1, 'b': 2};
         var data = Immutable.Map(obj);
-        expect(data).not.is(obj);
+        expect(data).not.toEqualImmutable(obj);
       });
 
     });

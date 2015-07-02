@@ -10,8 +10,7 @@ beforeEach(function () {
         }
       };
     },
-    is: function(expected) {
-      //return Immutable.is(actual, expected);
+    toEqualImmutable: function(expected) {
       return {
         compare: function(actual, expected) {
           return { pass: Immutable.is(actual, expected) };
