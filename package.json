@@ -1,6 +1,6 @@
 {
   "name": "jasmine-immutablejs-matchers",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Jasmine matchers for Immutable.js",
   "main": "index.js",
   "scripts": {
